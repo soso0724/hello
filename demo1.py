@@ -17,7 +17,7 @@ print(app.template_folder)
 @app.route("/")
 
 def index1():
-    return "Don't worry, everything gonna be ok ^_^"
+    return "Don't worry, everything will be better ^_^"  
 
 #判断是否直接使用当前模块运行程序
 if __name__ == "__main__":
